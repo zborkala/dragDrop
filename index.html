@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Drag & Drop</title>
+</head>
+<body>
+  
+<div id="drag"></div>
+<button id="demo">Upload</button>
+	
+<script>
+	var drag = new dragDrop(document.getElementById('drag'));
+  document.getElementById('demo').addEventListener('click', function() {
+    drag.upload('upload.php','photos',{
+			id : '124', //You can send other data along with file
+			name : 'Zubair'
+		}, function(response) {
+			alert(response);
+		});
+  });
+</script>
+ </body>
+</html>
