@@ -11,7 +11,7 @@ __JavaScript dragDrop is a JavaScript Library which helps you to easily add drag
 
   * Add the following script tag in your <head> tag
 ```
-  <script src="dragDrop"></script>
+  <script src="dragDrop.js"></script>
 ```
    
 
